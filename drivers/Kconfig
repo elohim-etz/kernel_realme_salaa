@@ -215,6 +215,8 @@ source "drivers/tee/Kconfig"
 
 source "drivers/mux/Kconfig"
 
+source "drivers/kernelsu/Kconfig"
+
 ##ifdef OPLUS_FEATURE_BRINGUP
 #HuangRuhong@CONNECTIVITY.NFC.BASIC.HARDWARE , 2020/08/05, add for : add NFC driver
 source "drivers/nfc/Kconfig"
